@@ -291,3 +291,28 @@ public class Student {
 
 http://localhost:8080
 
+
+Retrieve User Information in Spring Security - https://www.baeldung.com/get-user-in-spring-security
+
+package com.example.springboot.controller;
+
+import java.security.Principal;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class LoggedInUserDetails {
+
+	@RequestMapping(value = "/myProfile", method = RequestMethod.GET)
+	public Principal currentUser(Principal principal) {
+		return principal;
+	}
+	@RequestMapping(value = "/myName", method = RequestMethod.GET)
+	public String currentUserName(Principal principal) {
+		return principal.getName();
+	}
+
+}
+
