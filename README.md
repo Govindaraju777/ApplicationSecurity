@@ -298,12 +298,16 @@ package com.example.springboot.controller;
 
 import java.security.Principal;
 
+import org.springframework.security.authentication.AnonymousAuthenticationToken;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class LoggedInUserDetails {
+public class LoggedInUserDetailsController {
 
 	@RequestMapping(value = "/myProfile", method = RequestMethod.GET)
 	public Principal currentUser(Principal principal) {
@@ -311,8 +315,20 @@ public class LoggedInUserDetails {
 	}
 	@RequestMapping(value = "/myName", method = RequestMethod.GET)
 	public String currentUserName(Principal principal) {
+		
+		Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+		if (!(authentication instanceof AnonymousAuthenticationToken)) {
+		    String currentUserName = authentication.getName();
+		    System.out.println("currentUserName using static call to the SecurityContextHolder:: " + currentUserName);
+		}
+	    System.out.println("currentUserName using principal Object :: " + principal.getName());
 		return principal.getName();
 	}
 
+	//Alternatively, the authentication token can also be used:
+	@RequestMapping(value = "/username", method = RequestMethod.GET)
+    public String currentUserName(Authentication authentication) {
+        return authentication.getName();
+    }
+	
 }
-
