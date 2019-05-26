@@ -27,6 +27,45 @@ Inserting user with Bcrypt Password in MongodB:
 	db.users.insert({"username" : "admin1","password" : "$2a$10$J0i24V1W2UxUYyogYsFwOueHq2BAzBUIWDwPHweaoxWhOJH9AtPe."});
 
 
+/**
+ * 
+ */
+package com.example.springboot.model;
+
+import java.util.Set;
+
+import org.bson.types.ObjectId;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.DBRef;
+
+/**
+ * @author govindaraju.v
+ *
+ */
+public class Users {
+	@Id
+	public ObjectId _id;
+
+	public String username;
+	public String password;
+	@DBRef
+	private Set<String> roles;
+
+	public Users() {
+	}
+
+	public Users(ObjectId _id, String username, String password, Set<String> roles) {
+		this._id = _id;
+		this.username = username;
+		this.password = password;
+		this.roles = roles;
+	}
+
+	//getters and setters
+
+}
+
+
 
 /**
  * 
