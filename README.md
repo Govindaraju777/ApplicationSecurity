@@ -6,15 +6,15 @@
 			<artifactId>spring-boot-starter-data-mongodb</artifactId>
 		</dependency>
 
-application.properties :
-#Mongo DB connection
+	application.properties :
+		#Mongo DB connection
 
-spring.data.mongodb.host=localhost
-spring.data.mongodb.port=27017
-spring.data.mongodb.database=students
-#spring.data.mongodb.repositories.enabled=true
-#spring.data.mongodb.username=
-#spring.data.mongodb.password=
+		spring.data.mongodb.host=localhost
+		spring.data.mongodb.port=27017
+		spring.data.mongodb.database=students
+		#spring.data.mongodb.repositories.enabled=true
+		#spring.data.mongodb.username=
+		#spring.data.mongodb.password=
 
 
 
