@@ -16,7 +16,11 @@
 		#spring.data.mongodb.username=
 		#spring.data.mongodb.password=
 
-	Start MongoDb on port 27017
+
+
+Install mongodb.
+Start MongoDb on port 27017
+create database - students
 
 
 Authentication with a Database-backed UserDetailsService
