@@ -67,7 +67,7 @@ public class Users {
 
 
 
-
+<hr>
 /**
  * 
  */
@@ -86,6 +86,7 @@ import com.example.springboot.model.Users;
 public interface UsersRepository extends MongoRepository<Users, String> {
 	Users findByUsername(String username);
 }
+<hr><br>
 
 
 
