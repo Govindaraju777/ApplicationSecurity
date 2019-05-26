@@ -1,6 +1,12 @@
 # SpringSecurity
 
 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
+		</dependency>
+		
+
 Authentication with a Database-backed UserDetailsService
 	https://www.baeldung.com/spring-security-authentication-with-a-database
 	
