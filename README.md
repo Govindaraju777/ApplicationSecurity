@@ -5,7 +5,18 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-mongodb</artifactId>
 		</dependency>
-		
+
+application.properties :
+#Mongo DB connection
+
+spring.data.mongodb.host=localhost
+spring.data.mongodb.port=27017
+spring.data.mongodb.database=students
+#spring.data.mongodb.repositories.enabled=true
+#spring.data.mongodb.username=
+#spring.data.mongodb.password=
+
+
 
 Authentication with a Database-backed UserDetailsService
 	https://www.baeldung.com/spring-security-authentication-with-a-database
