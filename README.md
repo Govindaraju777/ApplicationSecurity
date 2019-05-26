@@ -34,7 +34,9 @@ Authentication with a Database-backed UserDetailsService
 	
 	https://www.djamware.com/post/5b2f000880aca77b083240b2/spring-boot-security-and-data-mongodb-authentication-example
 	
-
+	https://www.baeldung.com/role-and-privilege-for-spring-security-registration
+	
+	
 	Inserting user with Bcrypt Password in MongodB:
 		- Generate BCrypt passowrd: https://www.browserling.com/tools/bcrypt
 		- Plain text password : secret1   Bcyrppassword  : $2a$10$J0i24V1W2UxUYyogYsFwOueHq2BAzBUIWDwPHweaoxWhOJH9AtPe.
