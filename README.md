@@ -10,6 +10,8 @@ Authentication with a Database-backed UserDetailsService
 	
 	https://ingini.org/2015/03/26/authentication-authorization-schema-design-with-mongodb/
 	
+	https://www.djamware.com/post/5b2f000880aca77b083240b2/spring-boot-security-and-data-mongodb-authentication-example
+	
 
 Inserting user with Bcrypt Password in MongodB:
 	- Generate BCrypt passowrd: https://www.browserling.com/tools/bcrypt
