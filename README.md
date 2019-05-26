@@ -13,7 +13,7 @@ Authentication with a Database-backed UserDetailsService
 
 Inserting user with Bcrypt Password in MongodB:
 	- Generate BCrypt passowrd: https://www.browserling.com/tools/bcrypt
-	- Plain text password : secret1 Bcyrppassword : $2a$10$J0i24V1W2UxUYyogYsFwOueHq2BAzBUIWDwPHweaoxWhOJH9AtPe.
+	- Plain text password : secret1   Bcyrppassword  : $2a$10$J0i24V1W2UxUYyogYsFwOueHq2BAzBUIWDwPHweaoxWhOJH9AtPe.
 	Mongo insert Query : 
 	db.users.insert({"username" : "user1","password" : "$2a$10$J0i24V1W2UxUYyogYsFwOueHq2BAzBUIWDwPHweaoxWhOJH9AtPe."});
 	db.users.insert({"username" : "admin1","password" : "$2a$10$J0i24V1W2UxUYyogYsFwOueHq2BAzBUIWDwPHweaoxWhOJH9AtPe."});
