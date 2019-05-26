@@ -41,7 +41,7 @@ public class LoggedInUserDetailsController {
 		return authentication.getName();
 	}
 
-	@RequestMapping(value = "/username2", method = RequestMethod.GET)
+	@RequestMapping(value = "/usernameAdminUrl", method = RequestMethod.GET)
 	@ResponseBody
 	public String currentUserNameSimple(HttpServletRequest request) {
 		Principal principal = request.getUserPrincipal();
