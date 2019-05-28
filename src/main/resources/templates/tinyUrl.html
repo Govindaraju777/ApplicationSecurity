@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>tinyUrl</title>
+</head>
+<body>
+
+	<div>
+		<span th:if="${tinyUrl!=null}">
+			<p>TinyURL was created!</p> <!-- <p th:text="'Short URL is ' + ${tinyUrl} +' ' + ' ,for originalUrl ' + ${originalUrl}"></p> -->
+			<a th:href="${tinyUrl}">Open shorten url</a>
+		</span>
+	</div>
+	<p>Enter a long URL to make tiny:</p>
+	<form action="/generateShortURL" method="post">
+		<span> <input type="text" name="originalURL" /> <input
+			type="hidden" th:name="${_csrf.parameterName}"
+			th:value="${_csrf.token}" /><input type="submit"
+			title="Make ShortURL!">
+	</form>
+</body>
+</html>
