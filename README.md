@@ -272,5 +272,10 @@ src/main/resources/templates/tinyUrl.html
 Test:
 
 http://localhost:8080
+![alt text](https://github.com/Govindaraju777/SpringSecurity/blob/Branch3_SpringOAuthClient_WEBAppExample/OauthLogin1.png)
 
+http://localhost:8080
+![alt text](https://github.com/Govindaraju777/SpringSecurity/blob/Branch3_SpringOAuthClient_WEBAppExample/OauthLogin2.png)
 
+http://localhost:8080
+![alt text](https://github.com/Govindaraju777/SpringSecurity/blob/Branch3_SpringOAuthClient_WEBAppExample/OauthLogin3.png)
