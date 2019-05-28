@@ -2,6 +2,10 @@
 
 SpringSecurity OAuth:
 
+OAuth2
+
+	OAuth2 is an authorization framework that enables the application Web Security to access the resources from the client. To build an OAuth2 application, we need to focus on the Grant Type (Authorization code), Client ID and Client secret.
+
 Sample Web Application using Spring MVC and Oauth login using (Git, Goolge accout etc..)
 
 
