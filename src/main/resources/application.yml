@@ -1,0 +1,28 @@
+server:
+  port: 8080
+  tomcat:
+  #Maximum amount of worker threads. Default: 200 
+    max-threads: 100
+security:
+  oauth2:
+    client:
+      #git OAUTH 
+      client-id: bd1c0a783ccdd1c9b9e4
+      client-secret: 1a9030fbca47a5b2c28e92f19050bb77824b5ad1
+      access-token-uri: https://github.com/login/oauth/access_token
+      userAuthorizationUri: https://github.com/login/oauth/authorize
+      client-authentication-scheme: form
+    resource:
+      user-info-uri: https://api.github.com/user
+#-----------#-----------  logger #-----------#-----------
+logging:
+  level:
+    root: INFO
+    org:
+      springframework:
+        security:
+          0: DEBUG
+          web:
+            FilterChainProxy: DEBUG
+#-----------#-----------  logger #-----------#-----------
+            
