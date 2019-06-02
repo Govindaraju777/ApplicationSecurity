@@ -1,0 +1,45 @@
+#Access Tokens
+ #https://www.oauth.com/oauth2-servers/access-tokens/
+
+server:
+  port: 9000
+  servlet.context-path: /service
+  tomcat:
+    #Maximum amount of worker threads. Default: 200 
+    max-threads: 100  
+
+security:
+  oauth2:
+    client:
+      clientId: makeymytrip
+      client-secret: secretkey
+      grant-type: password,client_credentials,authorization_code,refresh_token
+      scope: read,write
+
+spring:
+  security:
+    user:
+      name: govind
+      password: password
+      roles: USER
+
+
+# logger
+#logging.level.root=INFO
+#logging.level.org.springframework.*=DEBUG
+#-----------#-----------  logger #-----------#-----------
+logging:
+  level:
+    root: INFO
+    org-springframework.*: DEBUG
+#-----------#-----------  logger #-----------#-----------
+            
+#applicaton.properties      
+#--------------- oauth2 details
+#security.oauth2.client.client-id=makeymytrip
+#security.oauth2.client.client-secret=secretkey
+#security.oauth2.client.grant-type=password,client_credentials,authorization_code,refresh_token
+#security.oauth2.client.scope=read,write
+
+
+ 
