@@ -11,3 +11,11 @@ Branch 2 : Branch2_SpringBasicAuth_Database_backedUserDetails
 Branch 3 : Branch3_SpringOAuthClient_WEBAppExample	
 	Spring mvc application with Oauth Client Enabled - allows login using Oauth accounts such as Git, Google etc.
 	https://github.com/Govindaraju777/SpringSecurity/tree/Branch3_SpringOAuthClient_WEBAppExample
+
+
+
+
+
+
+
+https://www.baeldung.com/spring-boot-security-autoconfiguration
