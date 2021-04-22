@@ -12,8 +12,12 @@ https://oauth.net/2/grant-types/
       Refresh Token
       
 Legacy:
-      Implicit Flow
-      Password Grant (Resource Owner Password Flow)
+ #####     Implicit Flow
+      
+####      Password Grant (Resource Owner Password Flow)
+                  The Password grant type is a way to exchange a user's credentials for an access token. Because the client application has to collect the user's password and send it to the authorization server, it is not recommended that this grant be used at all anymore.
+
+                  This flow provides no mechanism for things like multifactor authentication or delegated accounts, so is quite limiting in practice.
 
 
 
