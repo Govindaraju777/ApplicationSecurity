@@ -14,7 +14,17 @@ https://oauth.net/2/grant-types/
 Legacy:
  #####     Implicit Flow
       
+      The Implicit flow was a simplified OAuth flow previously recommended for native apps and JavaScript apps where the access token was returned immediately without an extra authorization code exchange step.
+
+It is not recommended to use the implicit flow (and some servers prohibit this flow entirely) due to the inherent risks of returning access tokens in an HTTP redirect without any confirmation that it has been received by the client.
+
+Public clients such as native apps and JavaScript apps should now use the authorization code flow with the PKCE extension instead.
+
+
 ####      Password Grant (Resource Owner Password Flow)
+
+                  https://auth0.com/docs/flows/resource-owner-password-flow
+                  
                   The Password grant type is a way to exchange a user's credentials for an access token. Because the client application has to collect the user's password and send it to the authorization server, it is not recommended that this grant be used at all anymore.
 
                   This flow provides no mechanism for things like multifactor authentication or delegated accounts, so is quite limiting in practice.
