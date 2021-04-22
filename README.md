@@ -11,9 +11,10 @@ https://oauth.net/2/grant-types/
       Device Code
       Refresh Token
       
-Legacy
+Legacy:
       Implicit Flow
-      Password Grant
+      Password Grant (Resource Owner Password Flow)
+
 
 
 
