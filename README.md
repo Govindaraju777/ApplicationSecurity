@@ -5,8 +5,9 @@ https://www.oauth.com/playground/
 
 https://oauth.net/2/grant-types/
 
-      Authorization Code
-      Client Credentials
+      
+      Authorization Code (3 legged )
+      Client Credentials (2 legged)
       Device Code
       Refresh Token
 
