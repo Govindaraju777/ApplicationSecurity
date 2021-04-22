@@ -1,6 +1,29 @@
 # OAuth 2.0 Playground
 https://www.oauth.com/playground/
 
+
+# OAuth Central Components
+
+https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth
+
+
+      OAuth is built on the following central components:
+
+      Scopes and Consent
+      Actors
+      Clients
+      Tokens
+      Authorization Server
+      Flows
+      
+      
+#### Endpoints
+      OAuth 2.0 uses two endpoints: the /authorize endpoint and the /oauth/token endpoint.
+https://auth0.com/docs/protocols/protocol-oauth2
+
+      
+
+
 # OAuth Grant Types
 
 https://oauth.net/2/grant-types/
@@ -65,6 +88,10 @@ https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth
 
       The front channel flow is used by the client application to obtain an authorization code grant. The back channel is used by the client application to exchange the authorization code grant for an access token (and optionally a refresh token). It assumes the Resource Owner and Client Application are on separate devices
 
+
+
+      
+      
 
 
 ## Spring Boot + OAuth 2 Client Credentials Grant - Hello World Example
