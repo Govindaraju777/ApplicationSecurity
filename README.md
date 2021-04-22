@@ -14,11 +14,20 @@ https://oauth.net/2/grant-types/
 Legacy:
  #####     Implicit Flow
       
-      The Implicit flow was a simplified OAuth flow previously recommended for native apps and JavaScript apps where the access token was returned immediately without an extra authorization code exchange step.
+            The Implicit flow was a simplified OAuth flow previously recommended for native apps and JavaScript apps where the access token was returned immediately without an extra authorization code exchange step.
 
-It is not recommended to use the implicit flow (and some servers prohibit this flow entirely) due to the inherent risks of returning access tokens in an HTTP redirect without any confirmation that it has been received by the client.
+      It is not recommended to use the implicit flow (and some servers prohibit this flow entirely) due to the inherent risks of returning access tokens in an HTTP redirect without any confirmation that it has been received by the client.
 
-Public clients such as native apps and JavaScript apps should now use the authorization code flow with the PKCE extension instead.
+      Public clients such as native apps and JavaScript apps should now use the authorization code flow with the PKCE extension instead.
+
+
+###### The Implicit Grant
+            Like the Authorization Code Grant Type, the Implicit Grant starts out by building a link and directing the user’s browser to that URL. At a high level, the flow has the following steps:
+
+            The application opens a browser to send the user to the OAuth server
+            The user sees the authorization prompt and approves the app’s request
+            The user is redirected back to the application with an access token in the URL fragment
+
 
 
 ####      Password Grant (Resource Owner Password Flow)
