@@ -19,6 +19,13 @@ https://www.youtube.com/watch?v=1ZX7554l8hY&t=239s
 https://oauth.net/2/client-types/#:~:text=Confidential%20clients%20are%20applications%20that,or%20on%20a%20mobile%20device.
 
 
+    OAuth defines two types of clients: confidential clients and public clients.
+
+    Confidential clients are applications that are able to securely authenticate with the authorization server, for example being able to keep their registered client secret safe.
+
+    Public clients are unable to use registered client secrets, such as applications running in a browser or on a mobile device.
+
+
 ## Spring Boot + OAuth 2 Client Credentials Grant - Hello World Example
 
 https://www.javainuse.com/spring/springboot-oauth2-client-grant
