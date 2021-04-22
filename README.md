@@ -6,13 +6,17 @@ https://www.oauth.com/playground/
 https://oauth.net/2/grant-types/
 
       
-      Authorization Code (3 legged )
-      Client Credentials (2 legged)
-      Device Code
-      Refresh Token
+      1. Authorization Code (3 legged )
+      2. Client Credentials (2 legged)
+      3. Device Code
+      4. Refresh Token
       
-Legacy:
- #####     Implicit Flow
+# Legacy Grant Types :
+            1. Implicit Flow
+            2. Password Grant (Resource Owner Password Flow)
+
+
+ #####     1. Implicit Flow
       
             The Implicit flow was a simplified OAuth flow previously recommended for native apps and JavaScript apps where the access token was returned immediately without an extra authorization code exchange step.
 
@@ -30,7 +34,7 @@ Legacy:
 
 
 
-####      Password Grant (Resource Owner Password Flow)
+####     2.  Password Grant (Resource Owner Password Flow)
 
                   https://auth0.com/docs/flows/resource-owner-password-flow
                   
