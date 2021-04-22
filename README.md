@@ -10,6 +10,12 @@ https://oauth.net/2/grant-types/
       Client Credentials (2 legged)
       Device Code
       Refresh Token
+      
+Legacy
+      Implicit Flow
+      Password Grant
+
+
 
 ## OAuth Grant Types
 https://www.youtube.com/watch?v=1ZX7554l8hY&t=239s
