@@ -26,6 +26,13 @@ https://oauth.net/2/client-types/#:~:text=Confidential%20clients%20are%20applica
     Public clients are unable to use registered client secrets, such as applications running in a browser or on a mobile device.
 
 
+# Front Channel Flow where you authorize via user agent might look as follows
+https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth
+
+      The front channel flow is used by the client application to obtain an authorization code grant. The back channel is used by the client application to exchange the authorization code grant for an access token (and optionally a refresh token). It assumes the Resource Owner and Client Application are on separate devices
+
+
+
 ## Spring Boot + OAuth 2 Client Credentials Grant - Hello World Example
 
 https://www.javainuse.com/spring/springboot-oauth2-client-grant
