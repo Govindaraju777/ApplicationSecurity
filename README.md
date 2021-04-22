@@ -15,6 +15,10 @@ https://oauth.net/2/grant-types/
 https://www.youtube.com/watch?v=1ZX7554l8hY&t=239s
 
 
+## OAuth 2.0 Client Types
+https://oauth.net/2/client-types/#:~:text=Confidential%20clients%20are%20applications%20that,or%20on%20a%20mobile%20device.
+
+
 ## Spring Boot + OAuth 2 Client Credentials Grant - Hello World Example
 
 https://www.javainuse.com/spring/springboot-oauth2-client-grant
