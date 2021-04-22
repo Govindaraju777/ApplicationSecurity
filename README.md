@@ -94,7 +94,7 @@ https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth
       
       A grant is a method of acquiring an access token. Deciding which grants to implement depends on the type of client the end user will be using, and the experience you want for your users.
       
-      ![image](https://user-images.githubusercontent.com/17598334/115728854-7fdab080-a3a2-11eb-87c4-48f0388b10a3.png)
+![image](https://user-images.githubusercontent.com/17598334/115728854-7fdab080-a3a2-11eb-87c4-48f0388b10a3.png)
 
 
 
