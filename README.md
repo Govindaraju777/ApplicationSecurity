@@ -10,6 +10,8 @@ https://oauth.net/2/grant-types/
       Device Code
       Refresh Token
 
+## OAuth Grant Types
+https://www.youtube.com/watch?v=1ZX7554l8hY&t=239s
 
 
 ## Spring Boot + OAuth 2 Client Credentials Grant - Hello World Example
