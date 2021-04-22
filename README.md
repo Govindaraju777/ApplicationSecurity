@@ -89,9 +89,14 @@ https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth
       The front channel flow is used by the client application to obtain an authorization code grant. The back channel is used by the client application to exchange the authorization code grant for an access token (and optionally a refresh token). It assumes the Resource Owner and Client Application are on separate devices
 
 
+# Which OAuth 2.0 grant should I implement?
+      https://oauth2.thephpleague.com/authorization-server/which-grant/
+      
+      A grant is a method of acquiring an access token. Deciding which grants to implement depends on the type of client the end user will be using, and the experience you want for your users.
+      
+      ![image](https://user-images.githubusercontent.com/17598334/115728854-7fdab080-a3a2-11eb-87c4-48f0388b10a3.png)
 
-      
-      
+
 
 
 ## Spring Boot + OAuth 2 Client Credentials Grant - Hello World Example
