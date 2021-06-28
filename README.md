@@ -17,6 +17,9 @@ Branch 3 : Branch3_SpringOAuthClient_WEBAppExample
 
 
 
+# OAuth2 docs
+https://github.com/Govindaraju777/SpringSecurity/tree/Oauth2_OIDC-docs
+
 
 https://www.baeldung.com/spring-boot-security-autoconfiguration
 WSO2 API Manager - https://youtu.be/iRF97aCQxyc?t=849
