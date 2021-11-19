@@ -23,3 +23,8 @@ https://github.com/Govindaraju777/SpringSecurity/tree/Oauth2_OIDC-docs
 
 https://www.baeldung.com/spring-boot-security-autoconfiguration
 WSO2 API Manager - https://youtu.be/iRF97aCQxyc?t=849
+
+
+## Deep dive with SSL certificates
+The process of establishing a secured channel between a server and a client involves in creating an encrypted connection between the server and the client.
+https://medium.com/geekculture/story-of-ssl-certificates-161f29df8b65
