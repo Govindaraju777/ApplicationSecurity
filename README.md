@@ -28,3 +28,5 @@ WSO2 API Manager - https://youtu.be/iRF97aCQxyc?t=849
 ## Deep dive with SSL certificates
 The process of establishing a secured channel between a server and a client involves in creating an encrypted connection between the server and the client.
 https://medium.com/geekculture/story-of-ssl-certificates-161f29df8b65
+## Digital Certificates: Chain of Trust
+https://www.youtube.com/watch?v=heacxYUnFHA&t=699s
