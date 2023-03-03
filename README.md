@@ -33,7 +33,8 @@ https://www.youtube.com/watch?v=heacxYUnFHA&t=699s
 
 
 # Oauth vs OIDC
-OAuth (Open Authorization) and OIDC (OpenID Connect) are both protocols used for authentication and authorization, but they have different purposes and functionalities.
+	
+	OAuth (Open Authorization) and OIDC (OpenID Connect) are both protocols used for authentication and authorization, but they have different purposes and functionalities.
 
 	OAuth is primarily used for authorization, allowing a user to grant permissions to a third-party application to access their resources (e.g., photos, contacts, etc.) 
 	on a server without giving the third-party application access to the user's login credentials. 
