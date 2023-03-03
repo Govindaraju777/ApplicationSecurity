@@ -45,7 +45,8 @@ https://www.youtube.com/watch?v=heacxYUnFHA&t=699s
 	On the other hand, OIDC is a protocol built on top of OAuth 2.0 and is designed for authentication. OIDC provides an ID token, which is a JSON web token containing information about the user that can be used to authenticate the user to a service. 
 	OIDC also provides additional security features such as session management, token revocation, and user consent.
 
-	In summary, OAuth is a protocol for authorization, while OIDC is a protocol for authentication. They both work together, and OIDC relies on OAuth for authorization to gain access to resources.
+	In summary, OAuth is a protocol for authorization, while OIDC is a protocol for authentication. 
+	They both work together, and OIDC relies on OAuth for authorization to gain access to resources.
 
 
 
