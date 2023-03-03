@@ -40,8 +40,10 @@ https://www.youtube.com/watch?v=heacxYUnFHA&t=699s
 	on a server without giving the third-party application access to the user's login credentials. 
 	OAuth is commonly used in social media applications like Facebook, Twitter, and Google, where users can authorize third-party applications to access their account information without sharing their username and password.
 
-	On the other hand, OIDC is a protocol built on top of OAuth 2.0 and is designed for authentication. 
-	OIDC provides an ID token, which is a JSON web token containing information about the user that can be used to authenticate the user to a service. 	OIDC also provides additional security features such as session management, token revocation, and user consent.
+
+###  OIDC
+	On the other hand, OIDC is a protocol built on top of OAuth 2.0 and is designed for authentication. OIDC provides an ID token, which is a JSON web token containing information about the user that can be used to authenticate the user to a service. 
+	OIDC also provides additional security features such as session management, token revocation, and user consent.
 
 	In summary, OAuth is a protocol for authorization, while OIDC is a protocol for authentication. They both work together, and OIDC relies on OAuth for authorization to gain access to resources.
 
